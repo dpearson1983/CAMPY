@@ -1,5 +1,5 @@
 # CAMPY
-This repository will house a simple python script to generate the nonlinear matter power spectrum for a given cosmology using the CAMB python package.
+This repository houses a simple python script to generate the nonlinear matter power spectrum for a given cosmology using the CAMB python package.
 
 ## Dependencies
 The following python packages are required
