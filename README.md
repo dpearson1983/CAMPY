@@ -8,6 +8,11 @@ The following python packages are required
 * pyyaml
 * astropy
 
+All of these packages should be installable with a simple
+```
+$ pip install PACKAGE_NAME
+```
+
 ## Usage
 The program uses parameters entered into a YAML file to set the cosmology for the power spectrum calculation, as well as set the output file name. See the included parameters.yaml file for an example (or just modify that file to use the values that you want). The program is then run by entering the following command on a Linux system:
 
