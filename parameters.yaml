@@ -1,0 +1,11 @@
+H_0 :  67.74
+Omega_M : 0.3089
+Omega_L : 0.6911
+Omega_bh2 : 0.02230
+Omega_ch2 : 0.1188
+Omega_k : 0.0
+n_s : 0.9667
+sigma_8 : 0.8159
+tau : 0.066
+z : 0.57
+outFile : camb_matterpower_z0.57.dat
