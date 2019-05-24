@@ -1,13 +1,13 @@
 # These parameters are the Planck cosmological parameters
-H_0 :  67.74
-Omega_M : 0.3089
-Omega_L : 0.6911
-Omega_bh2 : 0.02230
-Omega_ch2 : 0.1188
+H_0 :  67.37
+Omega_M : 0.3174
+Omega_L : 0.6853
+Omega_bh2 : 0.02233
+Omega_ch2 : 0.1198
 Omega_k : 0.0
-n_s : 0.9667
-sigma_8 : 0.8159
-tau : 0.066
+n_s : 0.9652
+sigma_8 : 0.8101
+tau : 0.054
 
 # Parameters concerning the output power spectrum
 z : 0.57
@@ -16,4 +16,5 @@ k_max : 10
 num_points : 2000
 
 # Output file name
-outFile : camb_matterpower_z0.57.dat
+outFile : camb_matterpower_z0.57_new.dat
+outLinFile: camb_matterpower_z0.57_lin_new.dat

@@ -26,5 +26,19 @@ pars.NonLinear = model.NonLinear_both
 results.calc_power_spectra(pars)
 kh, z, pk = results.get_matter_power_spectrum(minkh=inputPars['k_min'], maxkh=inputPars['k_max'], 
                                               npoints=inputPars['num_points'])
+sigma_8 = np.array(results.get_sigma8())
+print sigma_8
 
 ascii.write([kh, pk[0]], inputPars['outFile'], names=['kh', 'P(k)'], overwrite=True)
+
+pars.NonLinear = model.NonLinear_none
+results.calc_power_spectra(pars)
+kh_lin, z, pk_lin = results.get_matter_power_spectrum(minkh=inputPars['k_min'], maxkh=inputPars['k_max'], 
+                                              npoints=inputPars['num_points'])
+
+ascii.write([kh_lin, pk_lin[0]], inputPars['outLinFile'], names=['kh', 'P(k)'], overwrite=True)
+
+sigma_8 = np.array(results.get_sigma8())
+print sigma_8
+
+
